@@ -26,16 +26,16 @@ A simple Spring Boot REST application built with Java 17 and Maven.
 
 ### Running the Application
 
-To run the application locally, you can use the provided Maven Wrapper:
+To run the application locally:
 
 **Linux / macOS:**
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 **Windows:**
 ```cmd
-mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 ### Building the Project
@@ -44,10 +44,10 @@ To build the executable JAR file in the `target/` directory:
 
 **Linux / macOS:**
 ```bash
-./mvnw clean package
+mvn clean package
 ```
 
 **Windows:**
 ```cmd
-mvnw.cmd clean package
+mvn clean package
 ```
